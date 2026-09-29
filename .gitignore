@@ -1,0 +1,6 @@
+*.o
+*.d
+objects.*/
+build/
+test/selftest
+macos/R Spectrum.app/Contents/MacOS/RSpectrum
