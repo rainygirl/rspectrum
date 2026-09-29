@@ -10,7 +10,7 @@ audio capture and drawing differ per platform.
 
 ## Requirements
 
-Haiku (x86 or x86_64). Nothing outside the Haiku kits is needed.
+Haiku (x86, x86_64 or arm64). Nothing outside the Haiku kits is needed.
 
 ## Install with pkgman
 
@@ -18,6 +18,7 @@ Haiku (x86 or x86_64). Nothing outside the Haiku kits is needed.
 | --- | --- |
 | 32-bit x86 (x86_gcc2) | `pkgman add-repo https://pkgman.rainygirl.com/x86_gcc2`<br>`pkgman install rspectrum` |
 | x86_64 | `pkgman add-repo https://pkgman.rainygirl.com/x86_64`<br>`pkgman install rspectrum` |
+| arm64 | `pkgman add-repo http://pkgman.rainygirl.com/arm64`<br>`pkgman install rspectrum` |
 
 Then start **R Spectrum** from Deskbar -> Applications.
 

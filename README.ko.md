@@ -10,7 +10,7 @@
 
 ## 요구 사항
 
-Haiku(x86 또는 x86_64). Haiku 기본 키트 외에 필요한 것은 없습니다.
+Haiku(x86, x86_64 또는 arm64). Haiku 기본 키트 외에 필요한 것은 없습니다.
 
 ## pkgman으로 설치
 
@@ -18,6 +18,7 @@ Haiku(x86 또는 x86_64). Haiku 기본 키트 외에 필요한 것은 없습니�
 | --- | --- |
 | 32비트 x86(x86_gcc2) | `pkgman add-repo https://pkgman.rainygirl.com/x86_gcc2`<br>`pkgman install rspectrum` |
 | x86_64 | `pkgman add-repo https://pkgman.rainygirl.com/x86_64`<br>`pkgman install rspectrum` |
+| arm64 | `pkgman add-repo http://pkgman.rainygirl.com/arm64`<br>`pkgman install rspectrum` |
 
 설치한 뒤 Deskbar -> Applications 에서 **R Spectrum** 을 실행하십시오.
 
